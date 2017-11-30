@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale1.0">
+	<meta http-equiv="X-UA-Compatible" content="Ie=Edges">
+	<title>Intro to CSS</title>
+	
+	<!-- external stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- internal stylesheet-->
+	<!-- <style type="text/css">
+		body * {
+			background-color: blue;
+		}
+	</style> -->
+
+</head>
+<body>
+
+	<!-- type selector -->
+	<h3>Type selector</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<!-- ID selector -->          <!-- ID is always unique -->
+	<h3>ID selector</h3>
+	<p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<!-- class selector -->
+	<h3>Class selector</h3>
+	<p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<!-- <p class="paragraphs" style="background-color: yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+
+	<!-- Attributes Selector -->
+	<h3>Attribute Selector</h3>
+	<a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+	<br>
+	<a href="#" target="_top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+	<br>
+	<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+
+	<h3>Combinators</h3>
+	<div>	
+	<h5>Adjacent Sibling</h5>
+		<a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+		<br>
+		<a href="#" target="_top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+		<br>
+		<br>	
+		<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+	</div>
+
+	<!-- general Sibling -->
+	<div>	
+	<h5>General Sibling</h5>
+		<br>
+		<a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+		<br>
+		<div>	
+		<a href="#" target="_top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+		</div>
+		<br>	
+		<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+	</div>
+
+	<!-- child selector -->
+	<div>
+	<h5>Child Selector</h5>
+		<br>
+		<a href="#" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+		<br>
+		<div>	
+		<a href="#" target="_top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+		</div>
+		<br>	
+		<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a>
+	</div>
+
+	<div>
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+			<li>item 4</li>
+			<li>item 5</li>
+		</ul>
+	</div>
+
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p id="lastChild" class="Thirdpara">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+
+</body>
+</html>
