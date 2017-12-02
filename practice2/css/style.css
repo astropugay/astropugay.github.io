@@ -1,0 +1,29 @@
+/*.section {
+	width: 50%;
+	background-image: center center;*/
+
+.roadbike {
+	/*position: absolute;
+	padding-top: 30px;
+	max-width:100%;height:auto;
+	text-align: center;*/
+
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 125;
+    text-align: center;
+}
+.rbtext {
+	position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+
+}
+
+/*.rb {
+	position: relative;
+}*/
