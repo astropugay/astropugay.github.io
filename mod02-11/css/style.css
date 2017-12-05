@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+form {
+	background-color: blue;
+	width: 100%;
+}
+
+blockquote {
+	background-color: blue;
+	width: 100%;
+}
+
+abbr {
+	background-color: blue;
+	width: 100%;	
+}
+
+h4 {
+	background-color: blue;
+	width: 100%;	
+}
+
+nav {
+	background-color: blue;
+	width: 100%;	
+}
+
+ins {
+	background-color: blue;
+	width: 100%;	
+}
+
+sup {
+	background-color: blue;
+	width: 100%;
+}
+
+li {
+	background-color: blue;
+	width: 100%;
+}
+
+dl {
+	background-color: blue;
+	width: 100%;
+}
+
+input {
+	background-color: blue;
+	width: auto;
+}
+
+footer {
+	background-color: blue;
+	width: auto;
+}
+
+select {
+	background-color: blue;
+	width: auto;
+}
+
+header {
+	background-color: green;
+	height: auto;
+}
