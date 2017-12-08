@@ -23,7 +23,7 @@
 }
 
 .main {
-	min-height: 700px;
+	/*min-height: 700px;*/
 	background-color: lightgrey;
 }
 
@@ -40,6 +40,11 @@
 .right {
 	background-color: orange;
 	min-height: 500px;
+}
+
+[class*="col"] {
+	border: 5px solid black;
+	float: left;
 }
 
 .col-sm-1 {
