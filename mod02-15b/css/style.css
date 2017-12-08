@@ -124,13 +124,13 @@ li {
 	height: 20%;
 	background-color: green;
 	position: relative;
-	/*float: left;*/
+	float: left;
 	border: 1px solid;
 	padding: : 10%;
 	/*display: inline-block;*/
 }
 
-/*.bigserv1,
+.bigserv1,
 .bigserv2,
 .bigserv3 {
 	width:80%;
@@ -138,7 +138,8 @@ li {
 	background-color: pink;
 	float: right;
 	position: relative;
-}*/
+	float:left;
+}
 
 
 .projects {
