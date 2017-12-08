@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-/*General Rules*/
+/*General Rules------------------------------------------------------------------------------*/
 .page {
 	width: 100%;
 }
@@ -46,7 +46,7 @@
 	background-color: #c8c6fa;
 }
 
-/*Mobile Devices*/
+/*Mobile Devices----------------------------------------------------------------------------------*/
 @media only screen and (max-width: 568px) {
 
 	body {
@@ -56,40 +56,45 @@
 
 
 
-/*Tablet Devices*/
-@media only screen and (min-width: 569px) and (max-width: 968px) {
+/*Mobile Devices----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 568px) {
 
-	body	{
-		background-color: yellow;
-	}
+	p {
+	font-size: 0.35em;
 
-	.sign-up,
-	.feature1,
-	.feature2,
-	.feature3 {
-		float: left;
-		width: 50%;
-	}
+}
+.inside1 {
+	background-color: grey;
+	height: auto;
+	width:30%;
+	border: 2px solid;
+	position:relative;
+	margin: 0 auto;
+	top:25%;
+	opacity: 0.5;
+/* 	font-size: calc(0.35 + 1vmin); */
+}
 }
 
 
+/*Tablet Devices----------------------------------------------------------------------------------*/
+@media only screen and (min-width: 569px) and (max-width: 968px) {
 
-/*Desktop Devices*/
-@media only screen and (min-width: 969px) {
+	p {
+	font-size: 0.47em;
+}
+.inside1 {
+	background-color: grey;
+	height: auto;
+	width:30%;
+	border: 2px solid;
+	position:relative;
+	margin: 0 auto;
+	top:25%;
+	opacity: 0.5;
+}
+}
 
-	body	{
-		background-color: orange;
-	}
 
-	.sign-up {
-		height: 150px;
-	}
-
-	.feature1,
-	.feature2,
-	.feature3 {
-		width: 33.33%;
-		float: left;
-	}
 }
 

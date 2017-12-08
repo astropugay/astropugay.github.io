@@ -29,9 +29,9 @@
 	height: 100%;
 	width: 25%;
 	border: 4px solid;
-	background-image: url(../img/side.jpg);
+/*	background-image: url(../img/side.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 
@@ -43,11 +43,11 @@
 	position:relative;
 	top: 20%;
 	margin: 0 auto;
-	background-image: url(../img/images.png);
+	/*background-image: url(../img/images.png);
 	background-position: center;
 	border-radius: 50%;
 	background-repeat: cover;
-
+*/
 }
 
 .content {
@@ -60,15 +60,16 @@
 
 .menu {
 	/*border: 1px solid;*/
-	width: 25%;
+	width: auto;
 	position:relative;
 	margin:0 auto;
 	top: 25%;
 }
 
 li {
+
 	background-color: white;
-    padding: 10px;
+    padding: 10%;
     margin: 2px;
     text-align: center;
     width: 100%;
@@ -83,15 +84,15 @@ li {
 	border: 4px solid;
 	text-align: center;
 	font-size: 2em;
-	background-image: url(../img/home.jpg);
+	/*background-image: url(../img/home.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;*/
 }
 
 .inside1 {
 	background-color: grey;
-	height: 42%;
+	height: auto;
 	width:30%;
 	border: 2px solid;
 	position:relative;
@@ -104,18 +105,6 @@ p {
 	font-size: 0.7em;
 
 }
-/*.inside2 {
-	background-color: blue;
-	height: 100px;
-	width: 200px;
-	border: 2px solid;
-	position:relative;
-	margin: 0 auto;
-	top:50px;
-
-}*/
-
-
 
 
 
@@ -126,10 +115,10 @@ p {
 	border: 4px solid;
 	text-align: center;
 	font-size: 2em;
-	background-image: url(../img/parol.jpg);
+	/*background-image: url(../img/parol.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;*/
 }
 
 .services {
@@ -138,10 +127,10 @@ p {
 	border: 4px solid;
 	text-align: center;
 	font-size: 2em;
-	background-image: url(../img/tree.jfif);
+/*	background-image: url(../img/tree.jfif);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;*/
 }
 
 .projects {
@@ -150,10 +139,10 @@ p {
 	border: 4px solid;
 	text-align: center;
 	font-size: 2em;
-	background-image: url(../img/carol.jpg);
+/*	background-image: url(../img/carol.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;*/
 }
 
 
@@ -163,10 +152,10 @@ p {
 	border: 4px solid;
 	text-align: center;
 	font-size: 2em;
-	background-image: url(../img/jose.jfif);
+/*	background-image: url(../img/jose.jfif);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script', cursive;*/
 }
 
 footer {
@@ -194,4 +183,42 @@ footer {
 
 #toggleIcon1 {
 	left:0;
+}
+
+/*Mobile Devices----------------------------------------------------------------------------------*/
+@media only screen and (max-width: 568px) {
+
+	p {
+	font-size: 0.35em;
+}
+.inside1 {
+	background-color: grey;
+	height: auto;
+	width:30%;
+	border: 2px solid;
+	position:relative;
+	margin: 0 auto;
+	top:25%;
+	opacity: 0.5;
+	/*font-size: calc(0.35 + 1vmin);*/
+}
+}
+
+
+/*Tablet Devices----------------------------------------------------------------------------------*/
+@media only screen and (min-width: 569px) and (max-width: 968px) {
+
+	p {
+	font-size: 0.47em;
+}
+.inside1 {
+	background-color: grey;
+	height: auto;
+	width:30%;
+	border: 2px solid;
+	position:relative;
+	margin: 0 auto;
+	top:25%;
+	opacity: 0.5;
+}
 }
