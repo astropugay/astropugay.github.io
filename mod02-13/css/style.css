@@ -70,10 +70,14 @@ li {
 
 	background-color: white;
     padding: 10%;
+<<<<<<< HEAD
     margin: 2px;
+=======
+    margin: 2%;
+>>>>>>> b8e5b52f59f01030a75a098e238ebbdefa60d02e
     text-align: center;
-    width: 100%;
-    border-radius: 15px;
+    width: 80%;
+    border-radius: 15%;
     list-style: none;
 }
 
