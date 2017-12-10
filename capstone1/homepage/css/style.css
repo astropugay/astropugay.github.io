@@ -27,6 +27,9 @@
 	color: white;
 	text-shadow: -1px 4px 0px #545151;
 	font-family: 'Rock Salt', cursive;
+	position: fixed;
+	margin: 0 auto;
+	width: 100%;
 }
 
 h1 {
@@ -41,26 +44,33 @@ h1 {
 	height: 200px;
 	/*border: 1px solid;*/
 	margin: 0 auto;
-	margin-bottom: 10%;
 }
 
 .rb	{
 
 	background-image: url(../img/img13.jpg);
 	background-repeat:no-repeat;
+
+/*	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;*/
+
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
-
-	margin-top: 5%;
 }
 
 .tt	{
 
-	background-image: url(../img/img10.jpg);
+	background-image: url(../img/img19.jpg);
 	background-repeat:no-repeat;
+
+/*	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;*/
+
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -73,6 +83,11 @@ h1 {
 
 	background-image: url(../img/img12.jpg);
 	background-repeat:no-repeat;
+
+/*	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;*/
+
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -84,6 +99,11 @@ h1 {
 
 	background-image: url(../img/img14.jpg);
 	background-repeat:no-repeat;
+
+/*	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;*/
+
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -91,46 +111,116 @@ h1 {
 	background-position:center;
 }
 
-.rbname {
-	float:	right;
-	padding-top: 63%;
-    padding-right: 8%;
-    color: white;
-
-    font-family: 'Cutive Mono', monospace;
-}
-
-.ttname {
-    padding-top: 65%;
-    padding-left: 7%;
-    color: white;
-    float: left;
-
-     font-family: 'Cutive Mono', monospace;
-}
-
-.cxname {
-	float:	right;
-	padding-top: 65%;
-    padding-right: 8%;
-    color: white;
-
-    font-family: 'Cutive Mono', monospace;
-}
-
+.rbname,
+.ttname,
+.cxname,
 .trkname {
-    padding-top: 65%;
-    padding-left: 9%;
     color: white;
-    float: left;
-
     font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
+
+
+.container1,
+.container2,
+.container3,
+.container4 {
+	width: 100%;
+	height: auto;
+}
+
+.container1 {   /*for header spacing*/
+	padding-top: 20%;
+}
+
+.rb1,
+.tt1,
+.cx1,
+.trk1 {
+	width: 100%;
+	height: auto;
+}
+
+footer{
+	text-align: center;
+	color: white;
+}
 
 .rb:hover,
 .tt:hover,
 .cx:hover,
 .trk:hover {
   opacity: 0.4;
+}
+
+/*Tablet devices--------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+.rb,
+.tt,
+.cx,
+.trk {
+	width: 80%;
+	height: 346px;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+}
+
+.container1 {   /*for header spacing*/
+	padding-top: 15%;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+.rbname,
+.ttname,
+.cxname,
+.trkname {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+}
+
+}
+
+/*Desktop devices -----------------------------------------------------------------------*/
+@media only screen and (min-width: 961px) {
+
+.rb,
+.tt,
+.cx,
+.trk {
+	width: 80%;
+	height: 645px;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+}
+
+.container1 {   /*for header spacing*/
+	padding-top: 12%;
+}
+
+
+h1 {
+	font-size: 3.8em;
+}
+
+.rbname,
+.ttname,
+.cxname,
+.trkname {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 2em;
+}
+
 }
