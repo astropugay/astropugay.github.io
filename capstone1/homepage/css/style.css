@@ -1,0 +1,136 @@
+/*CSS RESET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*Mobile Devices---------------------------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding-bottom: 1%;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	text-shadow: -1px 4px 0px #545151;
+	font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+.rb,
+.tt,
+.cx,
+.trk {
+	width: 80%;
+	height: 200px;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+	margin-bottom: 10%;
+}
+
+.rb	{
+
+	background-image: url(../img/img13.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+
+	margin-top: 5%;
+}
+
+.tt	{
+
+	background-image: url(../img/img10.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+
+.cx	{
+
+	background-image: url(../img/img12.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.trk	{
+
+	background-image: url(../img/img14.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.rbname {
+	float:	right;
+	padding-top: 63%;
+    padding-right: 8%;
+    color: white;
+
+    font-family: 'Cutive Mono', monospace;
+}
+
+.ttname {
+    padding-top: 65%;
+    padding-left: 7%;
+    color: white;
+    float: left;
+
+     font-family: 'Cutive Mono', monospace;
+}
+
+.cxname {
+	float:	right;
+	padding-top: 65%;
+    padding-right: 8%;
+    color: white;
+
+    font-family: 'Cutive Mono', monospace;
+}
+
+.trkname {
+    padding-top: 65%;
+    padding-left: 9%;
+    color: white;
+    float: left;
+
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+.rb:hover,
+.tt:hover,
+.cx:hover,
+.trk:hover {
+  opacity: 0.4;
+}
