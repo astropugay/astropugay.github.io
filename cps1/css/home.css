@@ -61,10 +61,10 @@ h1 {
   	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
-/*.rb	{background-image: url(../img/img13.jpg);}
+.rb	{background-image: url(../img/img13.jpg);}
 .tt	{background-image: url(../img/img19.jpg);}
 .cx	{background-image: url(../img/img12.jpg);}
-.trk {background-image: url(../img/img14.jpg);}*/
+.trk {background-image: url(../img/img14.jpg);}
 
 .rbname,
 .ttname,
