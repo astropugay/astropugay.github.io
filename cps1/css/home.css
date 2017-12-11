@@ -34,6 +34,8 @@
 
 h1 {
 	font-size: 1.8em;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
 .rb,
@@ -42,74 +44,27 @@ h1 {
 .trk {
 	width: 80%;
 	height: 200px;
-	/*border: 1px solid;*/
 	margin: 0 auto;
-}
 
-.rb	{
-
-	background-image: url(../img/img13.jpg);
-	background-repeat:no-repeat;
-
-/*	background-repeat:no-repeat;
+	/*	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;*/
 
+	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
+
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
-.tt	{
-
-	background-image: url(../img/img19.jpg);
-	background-repeat:no-repeat;
-
-/*	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;*/
-
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-position:center;
-}
-
-
-.cx	{
-
-	background-image: url(../img/img12.jpg);
-	background-repeat:no-repeat;
-
-/*	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;*/
-
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-position:center;
-}
-
-.trk	{
-
-	background-image: url(../img/img14.jpg);
-	background-repeat:no-repeat;
-
-/*	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;*/
-
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-position:center;
-}
+/*.rb	{background-image: url(../img/img13.jpg);}
+.tt	{background-image: url(../img/img19.jpg);}
+.cx	{background-image: url(../img/img12.jpg);}
+.trk {background-image: url(../img/img14.jpg);}*/
 
 .rbname,
 .ttname,
@@ -120,8 +75,6 @@ h1 {
     text-align: center;
     margin-bottom: 5%;
 }
-
-
 
 .container1,
 .container2,
@@ -151,8 +104,10 @@ footer{
 .rb:hover,
 .tt:hover,
 .cx:hover,
-.trk:hover {
-  opacity: 0.4;
+.trk:hover,
+.h1:hover {
+ filter: none;
+ -webkit-filter: grayscale(0%);
 }
 
 /*Tablet devices--------------------------------------------------------------------------------*/
@@ -165,7 +120,6 @@ footer{
 .trk {
 	width: 80%;
 	height: 346px;
-	/*border: 1px solid;*/
 	margin: 0 auto;
 }
 
@@ -199,7 +153,6 @@ h1 {
 .trk {
 	width: 80%;
 	height: 645px;
-	/*border: 1px solid;*/
 	margin: 0 auto;
 }
 
