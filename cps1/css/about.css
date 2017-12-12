@@ -12,54 +12,20 @@
 	clear: both;
 }
 
-.cover,
-.cover1,
-.cover2 {
+.cover {
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
+	padding-bottom: 85%;
+	background-image: url(../img/img40.jpg);
 	width: 100%;
 	height: auto;
 	filter: gray; /* IE6-9 */
   	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
-
-.cover {
-	padding-bottom: 44%;
-	background-image: url(../img/img11.jpg);
-}
-
-
-.cover1 {
-	padding-bottom: 63%;
-	background-image: url(../img/img22.jpg);
-}
-
-.cover2 {
-	background-position:center;
-	padding-bottom: 53%;
-	background-image: url(../img/img24.jpg);
-}
-
-.feature {
-	background-image: url(../img/img36.jpg);
-	background-repeat:no-repeat;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	background-position:center;
-	width: 50%;
-	padding-bottom: 50%;
-	margin: auto;
-	height: auto;
-	filter: gray; /* IE6-9 */
-  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-}
-
 
 h3,
 h1,
@@ -68,13 +34,14 @@ p {
 	font-family: 'Cutive Mono', monospace;
 	z-index: 1;
 	text-align: center;
-	height: 100%;
 }
 
 footer{
 	text-align: center;
 	color: white;
 	background-color: black;
+	font-family: 'Cutive Mono', monospace;
+	/*margin-top: 100%;*/
 }
 
 .text {
@@ -200,6 +167,80 @@ a.animated-button.victoria-one {
    	padding: 6px;
     padding-left: 23px;
     padding-right: 23px;
+}
+
+
+/*Floating objects-------------------------------------------------------------------------*/
+.card-object {
+  width: 80%;
+  height: 100%;
+  font-size: 24px;
+  line-height: 40px;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+  margin: auto;
+}
+
+.card-object main {
+  background-color: white;
+
+}
+
+.rotate{
+  animation: rotate 4s infinite ease-in-out;
+}
+
+.floating{
+  animation: float 6s infinite ease-in-out;
+}
+
+@keyframes rotate{
+  0% {
+  transform: perspective(1000px) rotateY(4deg);
+  }
+  50%{
+  transform: perspective(1000px) rotateX(-5deg);
+  }
+  100% {
+  transform: perspective(1000px) rotateY(4deg);
+  }
+}
+
+@keyframes float{
+  0% {
+  transform: perspective(1000px) translateY(0px) rotateX(5deg);
+  }
+  50%{
+  transform: perspective(1000px) translateY(10px) rotateX(-5deg);
+  }
+  100% {
+  transform: perspective(1000px) translateY(0px) rotateX(5deg);
+  }
+}
+
+
+@keyframes disappear{
+  0%{
+    opacity: 0.6;
+  }
+  50%{
+    opacity: 0.1;
+  }
+  100%{
+    opacity: 0.6;
+  }
+}
+
+blockquote {
+	border: none;
+}
+
+.floatingbox {
+	width: 100%;
+	height: auto;
+}
+
+.bot {
+	margin-bottom: 15%;
 }
 
 /*Tablet devices--------------------------------------------------------------------------------*/

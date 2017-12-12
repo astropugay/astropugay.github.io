@@ -23,13 +23,11 @@
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
-	/*z-index: 2;*/
 }
 
 .test {
 	width: 100%;
 	height: 100vh;
-	/*border: 1px solid;*/
 }
 
 footer{
@@ -122,15 +120,11 @@ a.animated-button.victoria-one:after {
 /*bootstrap overide*/
 
 a.animated-button:link, a.animated-button:visited {
-    /*position: fixed;*/
     display: block;
     margin: 3px auto 0;
- /*   margin-top: 166px;
-    margin-left: 17px;*/
     z-index: 1;
     margin: 0 auto;
     padding: 1px 15px;
-    /*color: #080808;*/
     color: grey;
     font-size: 1.5em;
     border-radius: 0;

@@ -45,18 +45,12 @@ h1 {
 	width: 80%;
 	height: 200px;
 	margin: 0 auto;
-
-	/*	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;*/
-
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
-
 	filter: gray; /* IE6-9 */
   	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
