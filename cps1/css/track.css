@@ -28,26 +28,26 @@
 }
 
 .cover {
-	padding-bottom: 44%;
-	background-image: url(../img/img11.jpg);
+	padding-bottom: 58%;
+	background-image: url(../img/img35.jpg);
 }
 
 
 .cover1 {
-	padding-bottom: 63%;
-	background-image: url(../img/img22.jpg);
+	padding-bottom: 69%;
+	background-image: url(../img/img34.jpg);
 }
 
 .cover2 {
 	background-position:center;
-	padding-bottom: 53%;
-	background-image: url(../img/img24.jpg);
+	padding-bottom: 71%;
+	background-image: url(../img/img33.jpg);
 }
 
 .feature {
 	/*width: 60%;*/
 	/*height: 100px;*/
-	background-image: url(../img/img36.jpg);
+	background-image: url(../img/img39.jpg);
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -70,7 +70,6 @@ p {
 	font-family: 'Cutive Mono', monospace;
 	z-index: 1;
 	text-align: center;
-	height: 100%;
 }
 
 footer{

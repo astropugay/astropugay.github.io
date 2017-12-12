@@ -32,6 +32,17 @@
 	/*border: 1px solid;*/
 }
 
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+a{
+	color: white;
+}
+
+
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
@@ -151,6 +162,8 @@ a.animated-button.victoria-one {
     padding-left: 23px;
     padding-right: 23px;
 }
+
+
 
 /*Tablet devices--------------------------------------------------------------------------------*/
 

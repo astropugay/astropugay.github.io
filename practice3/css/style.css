@@ -1,0 +1,18 @@
+/*CSS Reset*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.btn,
+.well {
+	border-radius: 0;
+}
+
+.nav-inverse {
+	background-color: blue;
+	border-color: blue;
+}
