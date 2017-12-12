@@ -12,23 +12,50 @@
 	<!-- imports custom stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+	<script src="https://js.cx/libs/animate.js"></script>
+
 
 </head>
 <body>
 
-	
-<div class="floating">
-<div class="card-object rotate">
-	<header></header>
-	<aside></aside>
-	<main><blockquote class="message">May all the <em class="forgotten">tiny</em> black <em class="forget">insects</em> crawling on the peonies be my sons <em class="forget">and daughters</em> in future lives.</blockquote></main>
-	<footer class="author">Unknown</footer>
-</div>
-</div>
 
-<footer>Astro Pugay <a href="https://facebook.com"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></a>
-    <a href="https://instagram.com"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a> <a href="https://twitter.com"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-</footer>
+  <textarea id="textExample" rows="5" cols="60">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </textarea>
+
+  <button onclick="animateText(textExample)">Run the animated typing!</button>
+
+  <script>
+    function animateText(textArea) {
+      let text = textArea.value;
+      let to = text.length,
+        from = 0;
+
+      animate({
+        duration: 5000,
+        timing: bounce,
+        draw: function(progress) {
+          let result = (to - from) * progress + from;
+          textArea.value = text.substr(0, Math.ceil(result))
+        }
+      });
+    }
+
+
+    function bounce(timeFraction) {
+      for (let a = 0, b = 1, result; 1; a += b, b /= 2) {
+        if (timeFraction >= (7 - 4 * a) / 11) {
+          return -Math.pow((11 - 6 * a - 11 * timeFraction) / 4, 2) + Math.pow(b, 2)
+        }
+      }
+    }
+  </script>
+
+
   
 
 	<!-- font awesome -->
