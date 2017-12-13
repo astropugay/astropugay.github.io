@@ -62,6 +62,10 @@ img {
   	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
+i {
+    padding: 3px;
+}
+
 /* Global Button Styles------------------------------------------------------------------------------------------------ */
 a.animated-button:link, a.animated-button:visited {
 	position: relative;

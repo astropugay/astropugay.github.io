@@ -27,7 +27,7 @@
 	color: white;
 	text-shadow: -1px 4px 0px #545151;
 	font-family: 'Rock Salt', cursive;
-	position: fixed;
+	/*position: fixed;*/
 	margin: 0 auto;
 	width: 100%;
 }
@@ -36,6 +36,10 @@ h1 {
 	font-size: 1.8em;
 	filter: gray; /* IE6-9 */
   	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+a:link { 
+text-decoration:none; 
 }
 
 .rb,
@@ -79,7 +83,7 @@ h1 {
 }
 
 .container1 {   /*for header spacing*/
-	padding-top: 20%;
+	padding-top: 0%;
 }
 
 .rb1,
@@ -109,6 +113,10 @@ a{
 	color: white;
 }
 
+i {
+	padding: 3px;
+}
+
 /*Tablet devices--------------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 481px) and (max-width: 960px) {
@@ -122,8 +130,8 @@ a{
 	margin: 0 auto;
 }
 
-.container1 {   /*for header spacing*/
-	padding-top: 15%;
+.container1 {   
+	padding-top: 0%;
 }
 
 h1 {
@@ -156,7 +164,7 @@ h1 {
 }
 
 .container1 {   /*for header spacing*/
-	padding-top: 12%;
+	padding-top: 0%;
 }
 
 
