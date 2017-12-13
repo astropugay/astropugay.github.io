@@ -125,7 +125,7 @@ a.animated-button:link, a.animated-button:visited {
     z-index: 1;
     margin: 0 auto;
     padding: 1px 15px;
-    color: grey;
+    color: #333;
     font-size: 1.5em;
     border-radius: 0;
     font-weight: bold;

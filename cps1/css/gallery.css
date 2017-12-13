@@ -26,6 +26,7 @@
 	filter: gray; /* IE6-9 */
   	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
   	position: relative;
+
 }
 
 
@@ -167,7 +168,7 @@ a.animated-button.victoria-one {
 }
 
 a.animated-button.victoria-one:after {
-    background: black;
+    background: #333;
 }
 
 a.animated-button.victoria-one {
