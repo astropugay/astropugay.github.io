@@ -57,6 +57,17 @@ i {
 	padding: 3px;
 }
 
+blockquote {
+	text-align: center;
+}
+
+.meme {
+	width: 75%;
+	/*height: 10%;*/
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%);
+}
+
 
 /* Global Button Styles------------------------------------------------------------------------------------------------ */
 a.animated-button:link, a.animated-button:visited {
