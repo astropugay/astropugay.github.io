@@ -1,0 +1,234 @@
+/*CSS RESET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.cover,
+.cover1,
+.cover2 {
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	width: 100%;
+	height: auto;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.cover {
+	padding-bottom: 44%;
+	background-image: url(../img/img11.jpg);
+}
+
+
+.cover1 {
+	padding-bottom: 63%;
+	background-image: url(../img/img22.jpg);
+}
+
+.cover2 {
+	background-position:center;
+	padding-bottom: 53%;
+	background-image: url(../img/img24.jpg);
+}
+
+.feature {
+	background-image: url(../img/img36.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	width: 50%;
+	padding-bottom: 50%;
+	margin: auto;
+	height: auto;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+
+h3,
+h1,
+p {
+	color: black;
+	font-family: 'Cutive Mono', monospace;
+	z-index: 1;
+	text-align: center;
+	height: 100%;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.text {
+	background-color: rgba(134, 134, 134, 0.6);
+	border:none;
+}
+
+a{
+	color: white;
+}
+
+i {
+	padding: 3px;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+/* Global Button Styles------------------------------------------------------------------------------------------------ */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+
+/*bootstrap overide---------------------------------------------------------------------------------------------*/
+
+a.animated-button:link, a.animated-button:visited {
+    display: block;
+    margin: 3px auto 0;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 1px 15px;
+    color: grey;
+    font-size: 1.5em;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    overflow: hidden;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    font-family: 'Rock Salt', cursive;
+}
+
+a.animated-button.victoria-one {
+    border: 0px solid #333;
+}
+
+a.animated-button.victoria-one:after {
+    background: black;
+}
+
+a.animated-button.victoria-one {
+    border: 0px solid #333;
+   	padding: 6px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+/*Tablet devices--------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+a.animated-button:link, a.animated-button:visited {
+	 font-size: 3em;
+}
+
+p{
+	font-size: 1.4em;
+}
+
+}
+
+/*Desktop devices -----------------------------------------------------------------------*/
+@media only screen and (min-width: 961px) {
+
+a.animated-button:link, a.animated-button:visited {
+	 font-size: 4em;
+}
+}

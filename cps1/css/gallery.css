@@ -1,0 +1,437 @@
+/*CSS RESET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.cover {
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	padding-bottom: 107%;
+	background-image: url(../img/img41.jpg);
+	width: 100%;
+	height: auto;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  	position: relative;
+
+}
+
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-family: 'Cutive Mono', monospace;
+	/*margin-top: 100%;*/
+	width: 100%;
+}
+
+a{
+	color: white;
+}
+h2 {
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-family: 'Cutive Mono', monospace;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:contain;
+	background-position:center;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+i {
+    padding: 3px;
+}
+
+/* Global Button Styles------------------------------------------------------------------------------------------------ */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 0;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+
+
+/*bootstrap overide---------------------------------------------------------------------------------------------*/
+
+a.animated-button:link, a.animated-button:visited {
+    display: block;
+    margin: 3px auto 0;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 1px 15px;
+    color: grey;
+    font-size: 1.5em;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    overflow: hidden;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    font-family: 'Rock Salt', cursive;
+}
+
+a.animated-button.victoria-one {
+    border: 0px solid #333;
+}
+
+a.animated-button.victoria-one:after {
+    background: #333;
+}
+
+a.animated-button.victoria-one {
+    border: 0px solid #333;
+   	padding: 6px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+
+
+
+/** CROUSAL-STARTS */
+*/
+#sg-carousel {
+    position: relative;
+    height: 100vh;
+}
+#sg-carousel .carousel-inner .item {
+    height: auto;
+    width: 100%;
+}
+.carousel-caption{top:18%;}
+.carousel-caption h1 {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+#sg-carousel .carousel-control.left {
+    top: 48%;
+}
+#sg-carousel .carousel-control.right {
+    top: 48%;
+}
+.uppr-txt {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+}
+#sg-carousel .carousel-control.left,
+#sg-carousel .carousel-control.right {
+    background-image: none;
+    background-repeat: no-repeat;
+    opacity: 0;
+    text-shadow: none;
+    transition: all 0.8s ease 0s;
+}
+.carousel-control {
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: auto;
+    transition: all 0.8s ease 0s;
+}
+.carousel-inner {
+    box-shadow: 2px 6px 21px;
+}
+.fa-angle-right,
+.fa-angle-left {
+    font-size: 80px;
+}
+#sg-carousel:hover .carousel-control.left {
+    left: 38px;
+    transition: all .2s ease 0;
+}
+#sg-carousel:hover .carousel-control.right {
+    right: 38px;
+    transition: all .2s ease 0;
+}
+#sg-carousel:hover .carousel-control.left,
+#sg-carousel:hover .carousel-control.right {
+    opacity: 1;
+}
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+.item.active img {
+    transition: transform 5000ms linear 0s;
+    transform: scale(1.05, 1.05);
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+    font-size: 80px;
+}
+.carousel-caption {
+    left: 0;
+    padding-bottom: 5%;
+    right: 0;
+    text-align: left;
+    height: 10%;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.carousel-caption h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.carousel-caption > p {
+    font-size: 13px;
+    color: #fff;
+}
+.carousel-caption > a {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 6px 12px;
+}
+.button--tamaya {
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 100%;
+}
+.button--border-thick {
+}
+.button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: inherit;
+    display: block;
+    float: left;
+    padding: 1em 7em;
+    position: relative;
+    vertical-align: middle;
+    z-index: 1;
+}
+.button--tamaya::before {
+    padding-top: 1em;
+    top: 0;
+}
+.button--tamaya::before,
+.button--tamaya::after {
+    background-color: black;
+    color: #fff;
+    content: attr(data-text);
+    height: 50%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    width: 100%;
+}
+.button--tamaya::after {
+    bottom: 0;
+    line-height: 0;
+}
+.button--tamaya:hover::before {
+    transform: translate3d(0px, -100%, 0px);
+}
+.button--tamaya:hover::after {
+    transform: translate3d(0px, 100%, 0px);
+}
+.button--tamaya:hover {
+    font-weight: 600;
+}
+.carousel-indicators li {
+    background-color: #b3b5b9;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 12px;
+    margin: 1px;
+    text-indent: -999px;
+    width: 12px;
+    border: 0;
+}
+.carousel-indicators .active {
+    background-color: #041132;
+    height: 12px;
+    margin: 0;
+    width: 12px;
+    border: 0;
+}
+#sg-carousel h1 {
+    animation-delay: 1s;
+}
+#sg-carousel p {
+    animation-delay: 2s;
+}
+#sg-carousel button {
+    animation-delay: 3s;
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+/*Tablet devices--------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+a.animated-button:link, a.animated-button:visited {
+	 font-size: 3em;
+}
+
+.carousel-caption h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.carousel-caption > p {
+    font-size: 15px;
+    color: #fff;
+}
+}
+
+/*Desktop devices --------------------------------------------------------------------------------*/
+@media only screen and (min-width: 961px) {
+
+a.animated-button:link, a.animated-button:visited {
+	 font-size: 4em;
+}
+
+.carousel-caption h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.carousel-caption > p {
+    font-size: 30px;
+    color: #fff;
+}
+}
