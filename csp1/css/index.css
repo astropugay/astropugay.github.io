@@ -34,6 +34,8 @@ footer{
 	text-align: center;
 	color: white;
 	background-color: black;
+	font-family: 'Cutive Mono', monospace;
+	width: 100%;
 }
 
 a{
@@ -41,7 +43,7 @@ a{
 }
 
 i {
-	padding: 3px;
+	padding: 1px;
 }
 
 /* Global Button Styles */

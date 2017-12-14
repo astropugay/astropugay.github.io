@@ -42,7 +42,7 @@ footer{
 	color: white;
 	background-color: black;
 	font-family: 'Cutive Mono', monospace;
-	/*margin-top: 100%;*/
+	width: 100%;
 }
 
 .text {
@@ -54,7 +54,7 @@ a{
 }
 
 i {
-	padding: 3px;
+	padding: 1px;
 }
 
 blockquote {
