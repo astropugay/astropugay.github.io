@@ -225,6 +225,10 @@ p{
 	font-size: 1.4em;
 }
 
+i {
+padding: 15px;
+}
+
 }
 
 /*Desktop devices -----------------------------------------------------------------------*/
@@ -233,4 +237,8 @@ p{
 a.animated-button:link, a.animated-button:visited {
 	 font-size: 4em;
 }
+i {
+padding: 25px;
+}
+
 }

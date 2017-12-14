@@ -171,6 +171,10 @@ a.animated-button.victoria-one {
 a.animated-button:link, a.animated-button:visited {
 	 font-size: 3em;
 }
+
+i {
+padding: 15px;
+}
 }
 
 /*Desktop devices -----------------------------------------------------------------------*/
@@ -178,5 +182,9 @@ a.animated-button:link, a.animated-button:visited {
 
 a.animated-button:link, a.animated-button:visited {
 	 font-size: 4em;
+}
+
+i {
+padding: 25px;
 }
 }

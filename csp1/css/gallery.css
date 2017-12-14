@@ -415,6 +415,10 @@ a.animated-button:link, a.animated-button:visited {
     font-size: 15px;
     color: #fff;
 }
+
+i {
+padding: 15px;
+}
 }
 
 /*Desktop devices --------------------------------------------------------------------------------*/
@@ -432,5 +436,9 @@ a.animated-button:link, a.animated-button:visited {
 .carousel-caption > p {
     font-size: 30px;
     color: #fff;
+}
+
+i {
+ padding: 25px;
 }
 }

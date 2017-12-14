@@ -266,6 +266,11 @@ blockquote {
 	a.animated-button:link, a.animated-button:visited {
 		font-size: 3em;
 	}
+
+	i {
+	padding: 15px;
+	}
+
 }
 
 /*Desktop devices -----------------------------------------------------------------------*/
@@ -274,4 +279,8 @@ blockquote {
 	a.animated-button:link, a.animated-button:visited {
 		font-size: 4em;
 	}
+	i {
+	padding: 25px;
+	}
+
 }
