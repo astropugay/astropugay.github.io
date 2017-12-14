@@ -78,7 +78,8 @@ footer{
 }
 
 .text {
-	background-color: rgba(134, 134, 134, 0.56);
+	background-color: rgba(134, 134, 134, 0.6);
+	border:none;
 }
 
 a{
@@ -87,6 +88,10 @@ a{
 
 i {
 	padding: 3px;
+}
+
+p{
+	font-size: 1.2em;
 }
 
 
@@ -213,6 +218,11 @@ a.animated-button.victoria-one {
 a.animated-button:link, a.animated-button:visited {
 	 font-size: 3em;
 }
+
+p{
+	font-size: 1.4em;
+}
+
 }
 
 /*Desktop devices -----------------------------------------------------------------------*/

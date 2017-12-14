@@ -88,6 +88,10 @@ i {
 	padding: 3px;
 }
 
+p{
+	font-size: 1.2em;
+}
+
 
 /* Global Button Styles------------------------------------------------------------------------------------------------ */
 a.animated-button:link, a.animated-button:visited {
@@ -212,6 +216,11 @@ a.animated-button.victoria-one {
 a.animated-button:link, a.animated-button:visited {
 	 font-size: 3em;
 }
+
+p{
+	font-size: 1.4em;
+}
+
 }
 
 /*Desktop devices -----------------------------------------------------------------------*/
