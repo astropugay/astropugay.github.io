@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Avtivity 2</title>
+	<style type="text/css">
+	textarea {
+		height: 100px;
+		width: 200px
+	}	
+	form {
+		width: 25%
+	}
+
+</style>
+</head>
+<body>
+
+	<form method="" action="">
+		<fieldset>
+			<legend>Your Details</legend>
+			<label for="Name">Name:</label>
+			<input type="text" name="text">
+			<br>
+			<label for="Email">Email:</label>
+			<input type="text" name="Email">
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Your Review:</legend>
+			<label for="platform">How did you hear about us?</label>
+			<select name="platform">
+				<option value="Google" selected>Google</option>
+				<option value="Facebook">Facebook</option>
+				<option value="Twitter">Twitter</option>
+				<option value="Intagram">Instagram</option>
+				<option value="Ads">Ads</option>
+				<option value="Blog">Blog</option>
+			</select>
+			<br><br>
+			<label for="visit">Would you visit again?</label>
+			<br>
+			<label><input type="radio" name="visit" value="yes" checked> yes</label>
+			<label><input type="radio" name="visit" value="no"> maybe</label>
+			<label><input type="radio" name="visit" value="maybe"> maybe</label>
+			<br><br>
+			<legend>Comments</legend>
+			<textarea name="comments" placeholder="" ></textarea>
+			<br><br>
+			<label><input type="checkbox" name="sign" value="" checked> Sign me up for email updates</label>
+			<br>
+			<input type="submit" name="subscribe" value="Submit Review">
+		</fieldset>
+	</form>
+
+</body>
+</html>

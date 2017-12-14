@@ -1,0 +1,186 @@
+/*CSS RESET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*Mobile Devices---------------------------------------------------------------------------------------------*/
+
+.wrapper {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding-bottom: 1%;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	text-shadow: -1px 4px 0px #545151;
+	font-family: 'Rock Salt', cursive;
+	/*position: fixed;*/
+	margin: 0 auto;
+	width: 100%;
+}
+
+h1 {
+	font-size: 1.8em;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+a:link { 
+text-decoration:none; 
+}
+
+.rb,
+.tt,
+.cx,
+.trk {
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+	filter: gray; /* IE6-9 */
+  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.rb	{background-image: url(../img/img13.jpg);}
+.tt	{background-image: url(../img/img19.jpg);}
+.cx	{background-image: url(../img/img12.jpg);}
+.trk {background-image: url(../img/img14.jpg);}
+
+.rbname,
+.ttname,
+.cxname,
+.trkname {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+	width: 100%;
+	height: auto;
+}
+
+.container1 {   /*for header spacing*/
+	padding-top: 0%;
+}
+
+.rb1,
+.tt1,
+.cx1,
+.trk1 {
+	width: 100%;
+	height: auto;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+.rb:hover,
+.tt:hover,
+.cx:hover,
+.trk:hover,
+.h1:hover {
+ filter: none;
+ -webkit-filter: grayscale(0%);
+}
+
+a{
+	color: white;
+}
+
+i {
+	padding: 3px;
+}
+
+/*Tablet devices--------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+
+.rb,
+.tt,
+.cx,
+.trk {
+	width: 80%;
+	height: 346px;
+	margin: 0 auto;
+}
+
+.container1 {   
+	padding-top: 0%;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+.rbname,
+.ttname,
+.cxname,
+.trkname {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+}
+
+}
+
+/*Desktop devices -----------------------------------------------------------------------*/
+@media only screen and (min-width: 961px) {
+
+.rb,
+.tt,
+.cx,
+.trk {
+	width: 80%;
+	height: 645px;
+	margin: 0 auto;
+}
+
+.container1 {   /*for header spacing*/
+	padding-top: 0%;
+}
+
+
+h1 {
+	font-size: 3.8em;
+}
+
+.rbname,
+.ttname,
+.cxname,
+.trkname {
+    color: white;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 2em;
+}
+
+}
