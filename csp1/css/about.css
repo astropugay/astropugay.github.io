@@ -24,7 +24,7 @@
 	width: 100%;
 	height: auto;
 	filter: gray; /* IE6-9 */
-  	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
 h3,
@@ -63,9 +63,8 @@ blockquote {
 
 .meme {
 	width: 75%;
-	/*height: 10%;*/
 	filter: gray; /* IE6-9 */
-  	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 
 
@@ -148,102 +147,102 @@ a.animated-button.victoria-one:after {
 /*bootstrap overide---------------------------------------------------------------------------------------------*/
 
 a.animated-button:link, a.animated-button:visited {
-    display: block;
-    margin: 3px auto 0;
-    z-index: 1;
-    margin: 0 auto;
-    padding: 1px 15px;
-    color: grey;
-    font-size: 1.5em;
-    border-radius: 0;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    overflow: hidden;
-    letter-spacing: .08em;
-    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
-    font-family: 'Rock Salt', cursive;
+	display: block;
+	margin: 3px auto 0;
+	z-index: 1;
+	margin: 0 auto;
+	padding: 1px 15px;
+	color: grey;
+	font-size: 1.5em;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	font-family: 'Rock Salt', cursive;
 }
 
 a.animated-button.victoria-one {
-    border: 0px solid #333;
+	border: 0px solid #333;
 }
 
 a.animated-button.victoria-one:after {
-    background: black;
+	background: black;
 }
 
 a.animated-button.victoria-one {
-    border: 0px solid #333;
-   	padding: 6px;
-    padding-left: 23px;
-    padding-right: 23px;
+	border: 0px solid #333;
+	padding: 6px;
+	padding-left: 23px;
+	padding-right: 23px;
 }
 
 
 /*Floating objects-------------------------------------------------------------------------*/
 .card-object {
-  width: 90%;
-  height: 100%;
-  font-size: 24px;
-  line-height: 40px;
-  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
-  margin: auto;
+	width: 90%;
+	height: 100%;
+	font-size: 24px;
+	line-height: 40px;
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.8));
+	margin: auto;
 }
 
 .card-object main {
-  background-color: white;
+	background-color: white;
 
 }
 
 .rotate{
-  animation: rotate 4s infinite ease-in-out;
+	animation: rotate 4s infinite ease-in-out;
 }
 
 .floating{
-  animation: float 6s infinite ease-in-out;
+	animation: float 6s infinite ease-in-out;
 }
 
 @keyframes rotate{
-  0% {
-  transform: perspective(1000px) rotateY(4deg);
-  }
-  50%{
-  transform: perspective(1000px) rotateX(-5deg);
-  }
-  100% {
-  transform: perspective(1000px) rotateY(4deg);
-  }
+	0% {
+		transform: perspective(1000px) rotateY(4deg);
+	}
+	50%{
+		transform: perspective(1000px) rotateX(-5deg);
+	}
+	100% {
+		transform: perspective(1000px) rotateY(4deg);
+	}
 }
 
 @keyframes float{
-  0% {
-  transform: perspective(1000px) translateY(0px) rotateX(5deg);
-  }
-  50%{
-  transform: perspective(1000px) translateY(10px) rotateX(-5deg);
-  }
-  100% {
-  transform: perspective(1000px) translateY(0px) rotateX(5deg);
-  }
+	0% {
+		transform: perspective(1000px) translateY(0px) rotateX(5deg);
+	}
+	50%{
+		transform: perspective(1000px) translateY(10px) rotateX(-5deg);
+	}
+	100% {
+		transform: perspective(1000px) translateY(0px) rotateX(5deg);
+	}
 }
 
 
 @keyframes disappear{
-  0%{
-    opacity: 0.6;
-  }
-  50%{
-    opacity: 0.1;
-  }
-  100%{
-    opacity: 0.6;
-  }
+	0%{
+		opacity: 0.6;
+	}
+	50%{
+		opacity: 0.1;
+	}
+	100%{
+		opacity: 0.6;
+	}
 }
 
 blockquote {
@@ -264,15 +263,15 @@ blockquote {
 
 @media only screen and (min-width: 481px) and (max-width: 960px) {
 
-a.animated-button:link, a.animated-button:visited {
-	 font-size: 3em;
-}
+	a.animated-button:link, a.animated-button:visited {
+		font-size: 3em;
+	}
 }
 
 /*Desktop devices -----------------------------------------------------------------------*/
 @media only screen and (min-width: 961px) {
 
-a.animated-button:link, a.animated-button:visited {
-	 font-size: 4em;
-}
+	a.animated-button:link, a.animated-button:visited {
+		font-size: 4em;
+	}
 }

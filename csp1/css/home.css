@@ -27,7 +27,6 @@
 	color: white;
 	text-shadow: -1px 4px 0px #545151;
 	font-family: 'Rock Salt', cursive;
-	/*position: fixed;*/
 	margin: 0 auto;
 	width: 100%;
 }
@@ -80,10 +79,6 @@ text-decoration:none;
 .container4 {
 	width: 100%;
 	height: auto;
-}
-
-.container1 {   /*for header spacing*/
-	padding-top: 0%;
 }
 
 .rb1,
@@ -164,11 +159,6 @@ h1 {
 	height: 645px;
 	margin: 0 auto;
 }
-
-.container1 {   /*for header spacing*/
-	padding-top: 0%;
-}
-
 
 h1 {
 	font-size: 3.8em;
